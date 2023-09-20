@@ -7,7 +7,9 @@ class PingPongGame extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: PingPongTable(),
+      home: Scaffold(
+        body: PingPongTable(),
+      ),
     );
   }
 }
